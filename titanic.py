@@ -193,4 +193,4 @@ PassengerId = np.array(test["PassengerId"]).astype(int)
 my_solution = pd.DataFrame(my_prediction_clf, PassengerId, columns = ["Survived"])
 
 # my_tree_one.csvとして書き出し
-my_solution.to_csv("my_tree_clf.csv", index_label = ["PassengerId"])
+my_solution.to_csv("my_tree_clf.csv", index_label = ["PassengerId"])# Titanic
